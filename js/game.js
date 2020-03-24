@@ -24,10 +24,10 @@ var player,cursors,element,score,help;
 var game = new Phaser.Game(config);
 
 function preload(){
-    this.load.image('tiles','/imgs/map.png');
-    this.load.tilemapTiledJSON('map','/imgs/map.json');
-    this.load.spritesheet('dude', '/imgs/dude.png', { frameWidth: 32, frameHeight: 48 });
-    this.load.image('star', '/imgs/star.png');
+    this.load.image('tiles','../imgs/map.png');
+    this.load.tilemapTiledJSON('map','../imgs/map.json');
+    this.load.spritesheet('dude', '../imgs/dude.png', { frameWidth: 32, frameHeight: 48 });
+    this.load.image('star', '../imgs/star.png');
 }
 
 function create(){
